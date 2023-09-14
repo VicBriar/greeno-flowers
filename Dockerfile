@@ -2,4 +2,5 @@ FROM node:18
 COPY . /app
 WORKDIR /app
 RUN npm i
-CMD ["npm start"]
+CMD ["npm", "start"]
+EXPOSE 3000
